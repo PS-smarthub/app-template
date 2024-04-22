@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@smarthub/ui": "*",
     "react": "^18",
     "react-dom": "^18",
     "next": "14.2.2"
   },
   "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
